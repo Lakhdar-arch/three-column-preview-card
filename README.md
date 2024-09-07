@@ -1,5 +1,6 @@
 # three-column-preview-card
 Large Screen Device: 
+
 [large-device.webm](https://github.com/user-attachments/assets/eda6c734-d601-4647-a394-9b3c9e71f175)
 
 small-screen devices : 
