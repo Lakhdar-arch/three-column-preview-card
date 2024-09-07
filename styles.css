@@ -1,0 +1,94 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca:wght@400;700@display=swap');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display:wght@400;700@display=swap');
+.attribution { font-size: 11px; text-align: center; padding-top:20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color:hsl(0, 0%, 95%);
+    font-family:'Lexend Deca',sans-serif;
+    font-weight:500;
+    font-size:15px;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.container{
+    height:70%;
+    width:70%;
+    display:flex;
+    flex-direction:row;
+    border-radius:25px;
+    overflow:hidden;
+}
+.container .item{
+    padding:5%;
+    line-height:1.5rem;
+}
+.container .item h1{
+    color:hsl(0, 0%, 95%);
+    padding-top:8%;
+    padding-bottom:8%;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-weight:700;
+}
+.container .item p{
+    color:hsla(0, 0%, 100%, 0.75);
+    padding-top:25%;
+    padding-bottom:25%;
+}
+#back-col1{
+    background-color:hsl(31, 77%, 52%);
+}
+#back-col1 .btn-style{
+    color:hsl(31, 77%, 52%);
+}
+#back-col2{
+    background-color:hsl(184, 100%, 22%); 
+}
+#back-col2 .btn-style{
+    color:hsl(184, 100%, 22%); 
+}
+#back-col3{
+    background-color:hsl(179, 100%, 13%); 
+}
+#back-col3 .btn-style{
+    color:hsl(179, 100%, 13%); 
+}
+.btn-style{
+    background-color:white;
+    border:solid 2px white;
+    height:50px;
+    width:65%;
+    border-radius:10px;
+    font-size:1.2rem;
+    font-weight:500;
+    cursor:pointer;
+    color:inherit
+}
+#back-col1 .btn-style:hover,
+#back-col2 .btn-style:hover,
+#back-col3 .btn-style:hover{
+    background-color:transparent;
+    color:white;
+}
+@media(max-width:500px){
+html,body{
+    height:fit-content;
+    margin-top:20px;
+    margin-bottom:20px;
+.container{
+    height:100%;
+    width:95%;
+    display:flex;
+    flex-direction:column;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+}
